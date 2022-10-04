@@ -8,4 +8,8 @@ public class Gamepick : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(index);
     }
+    public void Leave()
+    {
+        Application.Quit();
+    }
 }
